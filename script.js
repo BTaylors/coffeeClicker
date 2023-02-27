@@ -174,7 +174,6 @@ function tick(data) {
 
 
 if (typeof process === "undefined") {
-  const data = window.data;
   const bigCoffee = document.getElementById("big_coffee");
   bigCoffee.addEventListener("click", () => clickCoffee(data));
 
